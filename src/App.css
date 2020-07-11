@@ -2,6 +2,30 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 200px;
+  margin-top: 95px;
   align-content: center;
 }
+body{
+  background-color:skyblue; 
+}
+.fill{
+  background-color:salmon;
+  border-radius:10px;
+  width:50%;
+  border-radius:6px;
+  height:70px;
+  border:8px solid black;
+}
+
+
+.list-of-users{
+  background-color:mediumorchid;
+  border-radius:6px;
+  height:40px;
+  width:20%;
+  border:9px solid navajowhite;
+  text-align:left;
+}
+
+
+
