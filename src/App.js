@@ -24,7 +24,7 @@ handleSubmit = (e) => {
   e.preventDefault();
   const user = this.state
   let newUser = {name: user.name, email: user.email}
-  this.setState({users: [... user.users, newUser]})
+  this.setState({users: [...user.users, newUser]})
   this.clear();
 }
 
